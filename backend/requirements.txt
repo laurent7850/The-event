@@ -1,0 +1,12 @@
+# Workspace version: 1.44.31
+uvicorn[standard]==0.29.0
+databutton==0.38.34
+fastapi==0.111.0
+ipykernel==6.29.5
+python-multipart==0.0.9
+openai
+beautifulsoup4
+requests
+supabase
+fpdf2
+python-jose[cryptography]
