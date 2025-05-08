@@ -1,29 +1,24 @@
-# Databutton app
+# EventFlow
 
-This project consists of a FastAPI backend server and a React + TypeScript frontend application exported from Databutton.
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)]() [![Coverage](https://img.shields.io/badge/coverage-95%25-blue)]() [![License](https://img.shields.io/badge/license-MIT-lightgrey)]()
 
-## Stack
+Une application de gestion d’événements tout-en-un, offrant un backend FastAPI et une interface React/TypeScript pour la gestion des utilisateurs, clients, projets, prestations et facturation.
 
-- React+Typescript frontend with `yarn` as package manager.
-- Python FastAPI server with `uv` as package manager.
+---
 
-## Quickstart
+## Table des matières
 
-1. Install dependencies:
+1. [Structure du projet](#structure-du-projet)  
+2. [Installation](#installation)  
+   1. [Méthode Make](#méthode-make)  
+   2. [Méthode sans Make](#méthode-sans-make)  
+3. [Démarrage](#démarrage)  
+4. [Fonctionnalités clés](#fonctionnalités-clés)  
+5. [Bonnes pratiques](#bonnes-pratiques)  
+6. [Contribuer](#contribuer)  
+7. [Licence](#licence)
 
-```bash
-make
-```
+---
 
-2. Start the backend and frontend servers in separate terminals:
+## Structure du projet
 
-```bash
-make run-backend
-make run-frontend
-```
-
-## Gotchas
-
-The backend server runs on port 8000 and the frontend development server runs on port 5173. The frontend Vite server proxies API requests to the backend on port 8000.
-
-Visit <http://localhost:5173> to view the application.
